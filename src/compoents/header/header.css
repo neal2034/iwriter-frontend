@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #F2F6FC;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.setting{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.back{
+    cursor: pointer;
+}
+
+.upgrade{
+    color:#F98A27;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}

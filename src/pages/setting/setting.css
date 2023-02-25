@@ -1,0 +1,17 @@
+.radios{
+    display: flex;
+}
+
+.label{
+    color: gray !important;
+}
+
+
+.proRadio::after{
+    content: url("/src/assets/image/crown.png");
+    transform: scale(.4);
+    position: relative;
+    right: 20px;
+    top:-10px
+}
+
