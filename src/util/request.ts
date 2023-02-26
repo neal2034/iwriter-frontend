@@ -1,6 +1,7 @@
 import axios from "axios";
 import {getLenLimit, getModal, getTone, getUserId} from "./config";
-const API_ENDPOINT = "http://localhost:3002/iwriter";
+const API_ENDPOINT = "http://www.iwriter.elgo.cc/iwriter";
+// const API_ENDPOINT = "http://localhost:3005/iwriter";
 
 
 export const getOpenApiResponse = async (prompt:string)=>{

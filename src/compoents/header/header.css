@@ -20,6 +20,10 @@
     cursor: pointer;
 }
 
+.history{
+    cursor: pointer;
+}
+
 .upgrade{
     color:#F98A27;
     font-size: 14px;

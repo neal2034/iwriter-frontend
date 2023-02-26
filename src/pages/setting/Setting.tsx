@@ -5,8 +5,8 @@ import './setting.css'
 
 const Setting = (): JSX.Element => {
     const [tone, setTone] = useState('Activity')
-    const [length,setLength] = useState('Thousand')
-    const [modal, setModal] = useState('Davinci')
+    const [length,setLength] = useState('THOUSAND')
+    const [modal, setModal] = useState('DAVINCI')
 
     const onModalChange = (event:any, value:string)=>{
         setModal(value)
